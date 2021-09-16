@@ -1,0 +1,245 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body{
+    font-family: "iransans";
+}
+
+@font-face {
+    font-family: "iransans";
+    src: url('assets/fonts/FontsFree-Net-ir_sans.ttf')format("truetype");
+}
+
+/* body{
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+} */
+
+a{
+    text-decoration: none;
+}
+
+.parent{
+    width: 90%;
+    /* height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center; */
+}
+/* 
+.div-img{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 20px;
+} */
+
+.header{
+    /* width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; */
+    background-color: rgb(91, 91, 255);
+}
+
+.header-baner{
+    width: 80%;
+    height: 220px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative; */
+    background-color: rgb(91, 91, 255);
+}
+
+.header-form{
+    width: 30%;
+    height: 220px;
+    background-color: rgb(240, 240, 240);
+}
+
+.header-baner p{
+    text-align: center;
+    /* color: white; */
+    font-size: 13px;
+    padding: 0px 30px;
+}
+
+.header-baner button{
+    border: none;
+    outline: none;
+    color: white;
+    background-color: rgb(1, 1, 170);
+    padding: 5px 10px;
+    font-size: 12px;
+    font-family: "iransans";
+    cursor: pointer;
+    position: absolute;
+    bottom: 30px;
+}
+
+/* .header-form form{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} */
+
+.header-form form input{
+    margin: 5px 0px;
+    background-color: white;
+    border: 1px solid lightgray;
+    outline: none;
+    width: 90%;
+    height: 35px;
+    padding: 0 10px;
+    text-align: center;
+    direction: rtl;
+}
+
+.header-form form input::placeholder{
+    font-family: "iransans";
+    font-size: 12px;
+}
+
+.header-form form button{
+    width: 90%;
+    height: 35px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: rgb(68, 65, 255);
+    color: white;
+    font-family: "iransans";
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.header-form form a{
+    font-size: 12px;
+    margin-top: 30px;
+}
+/* 
+.title{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+} */
+
+.title hr{
+    flex-grow: 1;
+}
+
+.title p{
+    padding: 0 10px;
+    color: blue;
+    font-size: 14px;
+}
+/* 
+.main{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+} */
+
+.card{
+    height: 180px;
+    /* width: 100%; */
+    /* padding: 10px; */
+    /* display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly; */
+    background-color: rgba(211, 211, 211, 0.5);
+    direction: rtl;
+    margin: 5px 0px;
+}
+
+.card p:first-child{
+    color: blue;
+}
+
+.card a{
+    margin-right: 10px;
+    color: gray;
+}
+
+.card p{
+    font-size: 12px;
+    margin: 10px;
+    text-align: right;
+}
+
+.footer{
+    /* width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; */
+    margin: 30px;
+}
+
+.footer ul{
+    list-style-type: none;
+    width: 60%;
+    /* display: flex;
+    flex-direction: row; */
+    justify-content: space-around;
+    /* align-items: center;
+    flex-wrap: wrap; */
+}
+
+.footer ul li{
+    font-size: 12px;
+}
+
+/* @media screen and (max-width:900px){
+    .header{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .header-baner, .header-form{
+        width: 100%;
+    }
+
+    .div-img{
+        display: none;
+    }
+}
+
+@media screen and (max-width:1230px){
+    .footer{
+        display: none;
+    }
+}
+
+@media screen and (max-width:367px){
+    .header-baner p{
+       margin-bottom: 45px;
+    }
+} */
